@@ -1,0 +1,1 @@
+import{ar as s}from"./index-895aba94.js";function r(e){return s.post("/address",e)}function t(e){return s.put("/address",e)}function a(e){return s.delete(`/address/${e}`)}function n(){return s.get("/address/default")}function u(){return s.get("/address",{pageNumber:1,pageSize:1e3})}function i(e){return s.get(`/address/${e}`)}export{a as D,t as E,n as a,u as b,r as c,i as g};
